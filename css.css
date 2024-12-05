@@ -1,0 +1,438 @@
+body {
+    background-color: #fdfef3;
+}
+
+nav {
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav-index {
+    background-color: #333;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.nav-index ul {
+    list-style-type: none;
+}
+
+.nav-index a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-index a:hover {
+    text-decoration: underline;
+}
+
+.intro {
+    padding: 20px;
+}
+
+.text-container {
+    width: 100%;
+    max-width: none;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-container p {
+    text-align: justify;
+}
+
+.btn-box {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: black;
+    color: #ddd;
+}
+
+.parcours, .parcours2 {
+    max-width: 650px;
+    padding-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8em;
+    color: black;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.parcours2 {
+    color: #262424;
+}
+
+h1.titre {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+p, ol {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+a.link {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.link:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.columns {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.column {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.column-image {
+    width: 50%;
+    height: 70%;
+    margin-top: 10px;
+}
+.column-image1 {
+    width: 40%;
+    height: auto;
+}
+
+
+.education h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.logo {
+    width: 30%;
+    height: 50%;
+    margin-top: 10px;
+}
+
+.titre3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    color: #333;
+    margin: 20px 0;
+}
+
+.titreabout {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #333;
+    margin: 20px 0;
+}
+
+.container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.box1, .box2, .box3 {
+    display: inline-block;
+    background: #333;
+    color: #ddd;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.projet-academique, .projets-personnels, .experience-professionnelle {
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.projet-academique h2, .projet-academique h3 {
+    text-align: left;
+    margin: 10px;
+}
+
+.projet-analyse h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+}
+
+.projet-academique h3 {
+    font-size: 24px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.contenu-texte {
+    max-width: 100%;
+    padding: 10px;
+    background-color: #cbb59e;
+    border: 1px solid #1e1a1a;
+}
+
+.columns1 img .column1 {
+    max-width: 100%; /* Assure que l'image ne dépasse pas la largeur de son conteneur */
+    height: auto;    
+    width: 50%;      
+    margin: 0 auto;
+}
+
+.column-image1 {
+    max-width: 80%;
+    height: auto;
+    width: 50%; 
+    margin: 0 auto;
+}
+
+.skills {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 15px;
+    color: #2a2a2a;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #555;
+    margin-top: 20px;
+}
+
+section, .skill-category {
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+ol, ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+ul li {
+    list-style-type: disc;
+}
+
+strong {
+    color: #333;
+}
+
+.skill-category ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+#soft-skills p {
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 10px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.intro {
+    width: 100%;            
+    padding: 50px 0;        
+    text-align: center;
+    color: rgb(47, 42, 42);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    box-sizing: border-box; /* Inclut le padding dans la largeur */
+}
+.identification {
+    font-size: 2.5em;
+    font-weight: bold;
+    padding: 20px;
+    color: #2e2828;
+    background-image: url('couleur2.jpg');
+    background-position: center;
+    display: inline-block;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+
+.background-image {
+    background-image: url('couleur.png');
+    background-size: cover;
+    background-position: bottom right;
+    padding-right: 20px; 
+    padding-bottom: 20px;
+}
+
+.highlight-title {
+    font-weight: bold;
+    color: #00796b;
+    font-size: 2.5em;
+}
+.content-container {
+    width: 100%;           /* Prend toute la largeur de la page */
+    flex-direction: column; /* Positionne les éléments de haut en bas */
+    align-items: center;    
+    padding: 0;
+    max-width: none;
+}
+
+.text-container {
+    width: 100%;            
+    text-align: center;      
+    padding: 10px;
+    background-color: #f9f9f9; /* Ajoute un fond pour mieux distinguer le bloc */
+    border-radius: 8px;       /* Coins arrondis pour un style professionnel */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.portfolioimg {
+    width: 100%; /* Assure que l'image utilise toute la largeur du conteneur .right-image */
+    height: auto; /* Conserve les proportions de l'image */
+}
+
+.right-image {
+    margin: 20px auto;
+    width: 40%;           /* Ajuste la taille de l'image */
+    border: 6px solid #262424;
+    align-self: center;         
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px; /* Ajout d'une bordure arrondie */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre pour donner de la profondeur */
+    font-family: Arial, sans-serif;
+}
+.quote {
+    font-style: italic;
+    color: #eabbd3;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Ajout d'une bordure arrondie */
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3); /* Ombre sur le focus */
+}
+
+textarea {
+    resize: vertical; /* Permet de redimensionner verticalement seulement */
+}
